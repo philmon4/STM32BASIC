@@ -1,3 +1,9 @@
+WARNING!
+========
+This repo is about to break for at least a couple of weeks while I integrate the STM32 hardware API
+Currently I have a functional VGA display, and a functional USB keyboard(*with a known bug for device recognition).
+If you liked the idea of basic running under Linux I'll keep backporting features into that anyway - see the new repo linuxretrobasic.
+
 RetroStyle STM32
 ==========
 My primary goal is to transform robin edwards' great work into a standalone STM32 micro, "RetroStyle STM32". I've always wanted to recreate something that gave the 'instant' power up response like the 80's micros.
