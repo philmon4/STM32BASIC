@@ -3,6 +3,8 @@ WARNING!
 This repo is about to break for at least a couple of weeks while I integrate the STM32 hardware API
 Currently I have a functional VGA display, and a functional USB keyboard(*with a known bug for device recognition).
 If you liked the idea of basic running under Linux I'll keep backporting features into that anyway - see the new repo linuxretrobasic.
+A consequence of this, is the code will become quite specific to the (very cheap) F767 development board from ST Micro, but easily ported to
+any other NUCLEO as long as the MPU has an LCD module and you can solder some resistors to make an analog VGA interface....
 
 RetroStyle STM32
 ==========
